@@ -1,0 +1,114 @@
+{
+  "known_model_families": {
+    "mean": {
+      "mae": 4.578660418984084,
+      "rmse": 10.753245646673648,
+      "r2": 0.5084801701750494,
+      "median_absolute_error": 2.077799587249756,
+      "within_10_percent": 0.2409875852614219,
+      "within_20_percent": 0.4571424083767305,
+      "within_30_percent": 0.631302485124363,
+      "test_rows": 263.8,
+      "calibration_rows": 170.0,
+      "empirical_test_coverage": 0.9222613503977403,
+      "average_interval_width_lakhs": 19.47916450500488
+    },
+    "std": {
+      "mae": 0.5777475320121306,
+      "rmse": 2.7439045914197293,
+      "r2": 0.1458225499644691,
+      "median_absolute_error": 0.2227217599968552,
+      "within_10_percent": 0.01976487092017178,
+      "within_20_percent": 0.03470257654687891,
+      "within_30_percent": 0.051617913232983356,
+      "test_rows": 8.983317872590282,
+      "calibration_rows": 6.855654600401044,
+      "empirical_test_coverage": 0.04042739481969698,
+      "average_interval_width_lakhs": 3.338350494632267
+    },
+    "min": {
+      "mae": 3.9663191007352347,
+      "rmse": 7.361182199924705,
+      "r2": 0.326498574268586,
+      "median_absolute_error": 1.8499368667602543,
+      "within_10_percent": 0.2222222222222222,
+      "within_20_percent": 0.4222222222222222,
+      "within_30_percent": 0.5925925925925926,
+      "test_rows": 253.0,
+      "calibration_rows": 162.0,
+      "empirical_test_coverage": 0.8616600790513834,
+      "average_interval_width_lakhs": 16.376388549804688
+    },
+    "max": {
+      "mae": 5.353761104764675,
+      "rmse": 13.889416265970004,
+      "r2": 0.7121148372668566,
+      "median_absolute_error": 2.3542513847351074,
+      "within_10_percent": 0.2740740740740741,
+      "within_20_percent": 0.5092250922509225,
+      "within_30_percent": 0.7195571955719557,
+      "test_rows": 271.0,
+      "calibration_rows": 177.0,
+      "empirical_test_coverage": 0.9568627450980393,
+      "average_interval_width_lakhs": 24.99658203125
+    },
+    "baseline_beaten_seeds": 5,
+    "seed_count": 5
+  },
+  "unseen_model_families": {
+    "mean": {
+      "mae": 4.967521353738418,
+      "rmse": 10.968536536480858,
+      "r2": 0.4504536724603181,
+      "median_absolute_error": 2.245757732391357,
+      "within_10_percent": 0.17003566971585427,
+      "within_20_percent": 0.3321267025988656,
+      "within_30_percent": 0.47232856414927893,
+      "test_rows": 279.6,
+      "calibration_rows": 198.4,
+      "empirical_test_coverage": 0.9259100093572423,
+      "average_interval_width_lakhs": 26.197474670410156
+    },
+    "std": {
+      "mae": 0.7632278192786597,
+      "rmse": 2.7855125174493853,
+      "r2": 0.1168340674360494,
+      "median_absolute_error": 0.5779456966360694,
+      "within_10_percent": 0.031129556892144816,
+      "within_20_percent": 0.05977427494443369,
+      "within_30_percent": 0.05486203260462188,
+      "test_rows": 62.88322510813198,
+      "calibration_rows": 83.10114319309933,
+      "empirical_test_coverage": 0.05154667350853336,
+      "average_interval_width_lakhs": 12.556143755877033
+    },
+    "min": {
+      "mae": 4.1930160609559515,
+      "rmse": 7.00211658067557,
+      "r2": 0.3213370871553535,
+      "median_absolute_error": 1.6605472564697266,
+      "within_10_percent": 0.12,
+      "within_20_percent": 0.248,
+      "within_30_percent": 0.392,
+      "test_rows": 192.0,
+      "calibration_rows": 121.0,
+      "empirical_test_coverage": 0.8588588588588588,
+      "average_interval_width_lakhs": 13.75811767578125
+    },
+    "max": {
+      "mae": 6.02302986618042,
+      "rmse": 14.215943670617085,
+      "r2": 0.6117446147505905,
+      "median_absolute_error": 3.0310997009277347,
+      "within_10_percent": 0.19855595667870035,
+      "within_20_percent": 0.4043321299638989,
+      "within_30_percent": 0.5165165165165165,
+      "test_rows": 346.0,
+      "calibration_rows": 333.0,
+      "empirical_test_coverage": 0.976878612716763,
+      "average_interval_width_lakhs": 45.670135498046875
+    },
+    "baseline_beaten_seeds": 5,
+    "seed_count": 5
+  }
+}

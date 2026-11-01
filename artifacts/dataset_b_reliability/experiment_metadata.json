@@ -1,0 +1,65 @@
+{
+  "dataset": "Kaggle Used Car Data by Sanjeet Singh Naik",
+  "source": "data\\external\\UsedCars_Combined.csv",
+  "license": "CC0 Public Domain",
+  "dataset_fingerprint_sha256": "e59c070d80bbe2745b99e84e52e006560667221e6942a283d1012dcaefb66816",
+  "seeds": [
+    42,
+    123,
+    2026,
+    3407,
+    7777
+  ],
+  "protocols": {
+    "known_model_families": "grouped by repeated vehicle signature",
+    "unseen_model_families": "grouped by model_family"
+  },
+  "features": [
+    "brand",
+    "model_family",
+    "manufacturing_year",
+    "kms_driven",
+    "fuel_type",
+    "city"
+  ],
+  "categorical_features": [
+    "brand",
+    "model_family",
+    "fuel_type",
+    "city"
+  ],
+  "numeric_features": [
+    "manufacturing_year",
+    "kms_driven"
+  ],
+  "parameter_candidates": [
+    {
+      "n_estimators": 250,
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "min_child_weight": 5,
+      "subsample": 0.85,
+      "colsample_bytree": 0.9,
+      "reg_alpha": 0.1,
+      "reg_lambda": 10.0
+    },
+    {
+      "n_estimators": 350,
+      "max_depth": 3,
+      "learning_rate": 0.03,
+      "min_child_weight": 5,
+      "subsample": 0.85,
+      "colsample_bytree": 0.9,
+      "reg_alpha": 0.1,
+      "reg_lambda": 10.0
+    }
+  ],
+  "package_versions": {
+    "python": "3.12.10",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.9.1",
+    "xgboost": "3.4.1"
+  },
+  "current_candidate_preserved": true
+}

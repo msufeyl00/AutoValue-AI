@@ -1,0 +1,71 @@
+{
+  "current_baseline": {
+    "feature_mode": "base",
+    "features": [
+      "manufacturing_year",
+      "kms_driven",
+      "brand",
+      "model_family",
+      "fuel_type",
+      "city"
+    ]
+  },
+  "raw_price": {
+    "feature_mode": "base",
+    "features": [
+      "manufacturing_year",
+      "kms_driven",
+      "brand",
+      "model_family",
+      "fuel_type",
+      "city"
+    ]
+  },
+  "log_price_tuned": {
+    "feature_mode": "base",
+    "features": [
+      "manufacturing_year",
+      "kms_driven",
+      "brand",
+      "model_family",
+      "fuel_type",
+      "city"
+    ]
+  },
+  "pseudo_huber": {
+    "feature_mode": "base",
+    "features": [
+      "manufacturing_year",
+      "kms_driven",
+      "brand",
+      "model_family",
+      "fuel_type",
+      "city"
+    ]
+  },
+  "interaction_features": {
+    "feature_mode": "interaction",
+    "features": [
+      "manufacturing_year",
+      "kms_driven",
+      "brand",
+      "model_family",
+      "fuel_type",
+      "city",
+      "brand_model_family"
+    ]
+  },
+  "full_model_name": {
+    "feature_mode": "full_name",
+    "features": [
+      "manufacturing_year",
+      "kms_driven",
+      "brand",
+      "model_family",
+      "fuel_type",
+      "city",
+      "brand_model_family",
+      "full_model_name"
+    ]
+  }
+}

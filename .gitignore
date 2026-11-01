@@ -1,0 +1,68 @@
+node_modules/
+dist/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+
+# External datasets - keep locally until licensing is verified
+data/external/
+
+# Derived candidate data containing third-party records
+data/processed/expanded_dataset_candidates.csv
+data/processed/
+
+# Unlicensed or restricted local sources
+data/original/
+data/external/dataset_c_github/
+data/external/Dataset.csv
+data/external/UsedCars_Banglore.csv
+data/external/UsedCars_Chennai.csv
+data/external/UsedCars_Delhi.csv
+data/external/UsedCars_Hyderabad.csv
+data/external/UsedCars_Kolkata.csv
+data/external/UsedCars_Mumbai.csv
+data/external/UsedCars_Pune.csv
+
+# Models and reports trained or derived from restricted Dataset A
+artifacts/car_price_model.keras
+artifacts/evaluation_metrics.json
+artifacts/model_metadata.json
+artifacts/actual_vs_predicted.png
+artifacts/data_quality_analysis.png
+artifacts/residual_distribution.png
+artifacts/training_validation_loss.png
+artifacts/ann_vs_xgboost_performance.png
+artifacts/xgboost_car_price_model.json
+artifacts/xgboost_preprocessor.joblib
+artifacts/xgboost_metrics.json
+artifacts/xgboost_split_indices.json
+artifacts/xgboost_calibrated_car_price_model.json
+artifacts/xgboost_calibrated_preprocessor.joblib
+artifacts/xgboost_calibration.json
+artifacts/xgboost_calibration_split_indices.json
+artifacts/xgboost_v2_car_price_model.json
+artifacts/xgboost_v2_preprocessor.joblib
+artifacts/xgboost_v2_metrics.json
+artifacts/xgboost_v2_feature_importance.csv
+artifacts/xgboost_v2_metadata.json
+artifacts/xgboost_actual_residual_comparison.png
+artifacts/xgboost_comparison_report.json
+artifacts/xgboost_feature_importance.csv
+artifacts/xgboost_feature_importance.png
+artifacts/xgboost_tuning_results.json
+artifacts/model_comparison.csv
+artifacts/model_comparison.json
+
+# Raw evaluation exports and local experiment output
+artifacts/**/prediction_results.csv
+artifacts/**/**_predictions.csv
+
+# Dataset B raw and legacy artifacts are never published
+artifacts/car_price_model.keras
+artifacts/xgboost*.json
+artifacts/xgboost*.joblib
+artifacts/model_metadata.json
+artifacts/evaluation_metrics.json

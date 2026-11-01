@@ -1,0 +1,372 @@
+{
+  "known_model_families_seed_42": {
+    "group_column": "signature",
+    "overlap_counts": {
+      "train_vs_validation": 0,
+      "train_vs_calibration": 0,
+      "train_vs_test": 0,
+      "validation_vs_calibration": 0,
+      "validation_vs_test": 0,
+      "calibration_vs_test": 0
+    },
+    "partitions": {
+      "train": {
+        "rows": 1063,
+        "unique_manufacturers": 27,
+        "unique_model_families": 142,
+        "unique_signatures": 801
+      },
+      "validation": {
+        "rows": 232,
+        "unique_manufacturers": 24,
+        "unique_model_families": 77,
+        "unique_signatures": 172
+      },
+      "calibration": {
+        "rows": 177,
+        "unique_manufacturers": 24,
+        "unique_model_families": 75,
+        "unique_signatures": 130
+      },
+      "test": {
+        "rows": 253,
+        "unique_manufacturers": 27,
+        "unique_model_families": 83,
+        "unique_signatures": 195
+      }
+    }
+  },
+  "unseen_model_families_seed_42": {
+    "group_column": "model_family",
+    "overlap_counts": {
+      "train_vs_validation": 0,
+      "train_vs_calibration": 0,
+      "train_vs_test": 0,
+      "validation_vs_calibration": 0,
+      "validation_vs_test": 0,
+      "calibration_vs_test": 0
+    },
+    "partitions": {
+      "train": {
+        "rows": 1033,
+        "unique_manufacturers": 28,
+        "unique_model_families": 103,
+        "unique_signatures": 769
+      },
+      "validation": {
+        "rows": 205,
+        "unique_manufacturers": 15,
+        "unique_model_families": 23,
+        "unique_signatures": 148
+      },
+      "calibration": {
+        "rows": 141,
+        "unique_manufacturers": 13,
+        "unique_model_families": 17,
+        "unique_signatures": 107
+      },
+      "test": {
+        "rows": 346,
+        "unique_manufacturers": 12,
+        "unique_model_families": 26,
+        "unique_signatures": 274
+      }
+    }
+  },
+  "known_model_families_seed_123": {
+    "group_column": "signature",
+    "overlap_counts": {
+      "train_vs_validation": 0,
+      "train_vs_calibration": 0,
+      "train_vs_test": 0,
+      "validation_vs_calibration": 0,
+      "validation_vs_test": 0,
+      "calibration_vs_test": 0
+    },
+    "partitions": {
+      "train": {
+        "rows": 1059,
+        "unique_manufacturers": 28,
+        "unique_model_families": 144,
+        "unique_signatures": 801
+      },
+      "validation": {
+        "rows": 231,
+        "unique_manufacturers": 22,
+        "unique_model_families": 85,
+        "unique_signatures": 172
+      },
+      "calibration": {
+        "rows": 165,
+        "unique_manufacturers": 20,
+        "unique_model_families": 66,
+        "unique_signatures": 130
+      },
+      "test": {
+        "rows": 270,
+        "unique_manufacturers": 26,
+        "unique_model_families": 88,
+        "unique_signatures": 195
+      }
+    }
+  },
+  "unseen_model_families_seed_123": {
+    "group_column": "model_family",
+    "overlap_counts": {
+      "train_vs_validation": 0,
+      "train_vs_calibration": 0,
+      "train_vs_test": 0,
+      "validation_vs_calibration": 0,
+      "validation_vs_test": 0,
+      "calibration_vs_test": 0
+    },
+    "partitions": {
+      "train": {
+        "rows": 1139,
+        "unique_manufacturers": 26,
+        "unique_model_families": 103,
+        "unique_signatures": 868
+      },
+      "validation": {
+        "rows": 185,
+        "unique_manufacturers": 15,
+        "unique_model_families": 23,
+        "unique_signatures": 138
+      },
+      "calibration": {
+        "rows": 209,
+        "unique_manufacturers": 12,
+        "unique_model_families": 17,
+        "unique_signatures": 139
+      },
+      "test": {
+        "rows": 192,
+        "unique_manufacturers": 14,
+        "unique_model_families": 26,
+        "unique_signatures": 153
+      }
+    }
+  },
+  "known_model_families_seed_2026": {
+    "group_column": "signature",
+    "overlap_counts": {
+      "train_vs_validation": 0,
+      "train_vs_calibration": 0,
+      "train_vs_test": 0,
+      "validation_vs_calibration": 0,
+      "validation_vs_test": 0,
+      "calibration_vs_test": 0
+    },
+    "partitions": {
+      "train": {
+        "rows": 1074,
+        "unique_manufacturers": 29,
+        "unique_model_families": 147,
+        "unique_signatures": 801
+      },
+      "validation": {
+        "rows": 227,
+        "unique_manufacturers": 25,
+        "unique_model_families": 85,
+        "unique_signatures": 172
+      },
+      "calibration": {
+        "rows": 169,
+        "unique_manufacturers": 21,
+        "unique_model_families": 63,
+        "unique_signatures": 130
+      },
+      "test": {
+        "rows": 255,
+        "unique_manufacturers": 22,
+        "unique_model_families": 83,
+        "unique_signatures": 195
+      }
+    }
+  },
+  "unseen_model_families_seed_2026": {
+    "group_column": "model_family",
+    "overlap_counts": {
+      "train_vs_validation": 0,
+      "train_vs_calibration": 0,
+      "train_vs_test": 0,
+      "validation_vs_calibration": 0,
+      "validation_vs_test": 0,
+      "calibration_vs_test": 0
+    },
+    "partitions": {
+      "train": {
+        "rows": 1124,
+        "unique_manufacturers": 26,
+        "unique_model_families": 103,
+        "unique_signatures": 849
+      },
+      "validation": {
+        "rows": 203,
+        "unique_manufacturers": 15,
+        "unique_model_families": 23,
+        "unique_signatures": 158
+      },
+      "calibration": {
+        "rows": 121,
+        "unique_manufacturers": 12,
+        "unique_model_families": 17,
+        "unique_signatures": 84
+      },
+      "test": {
+        "rows": 277,
+        "unique_manufacturers": 17,
+        "unique_model_families": 26,
+        "unique_signatures": 207
+      }
+    }
+  },
+  "known_model_families_seed_3407": {
+    "group_column": "signature",
+    "overlap_counts": {
+      "train_vs_validation": 0,
+      "train_vs_calibration": 0,
+      "train_vs_test": 0,
+      "validation_vs_calibration": 0,
+      "validation_vs_test": 0,
+      "calibration_vs_test": 0
+    },
+    "partitions": {
+      "train": {
+        "rows": 1055,
+        "unique_manufacturers": 30,
+        "unique_model_families": 154,
+        "unique_signatures": 801
+      },
+      "validation": {
+        "rows": 237,
+        "unique_manufacturers": 20,
+        "unique_model_families": 77,
+        "unique_signatures": 172
+      },
+      "calibration": {
+        "rows": 162,
+        "unique_manufacturers": 21,
+        "unique_model_families": 67,
+        "unique_signatures": 130
+      },
+      "test": {
+        "rows": 271,
+        "unique_manufacturers": 23,
+        "unique_model_families": 83,
+        "unique_signatures": 195
+      }
+    }
+  },
+  "unseen_model_families_seed_3407": {
+    "group_column": "model_family",
+    "overlap_counts": {
+      "train_vs_validation": 0,
+      "train_vs_calibration": 0,
+      "train_vs_test": 0,
+      "validation_vs_calibration": 0,
+      "validation_vs_test": 0,
+      "calibration_vs_test": 0
+    },
+    "partitions": {
+      "train": {
+        "rows": 874,
+        "unique_manufacturers": 29,
+        "unique_model_families": 103,
+        "unique_signatures": 661
+      },
+      "validation": {
+        "rows": 185,
+        "unique_manufacturers": 15,
+        "unique_model_families": 23,
+        "unique_signatures": 135
+      },
+      "calibration": {
+        "rows": 333,
+        "unique_manufacturers": 13,
+        "unique_model_families": 17,
+        "unique_signatures": 259
+      },
+      "test": {
+        "rows": 333,
+        "unique_manufacturers": 16,
+        "unique_model_families": 26,
+        "unique_signatures": 243
+      }
+    }
+  },
+  "known_model_families_seed_7777": {
+    "group_column": "signature",
+    "overlap_counts": {
+      "train_vs_validation": 0,
+      "train_vs_calibration": 0,
+      "train_vs_test": 0,
+      "validation_vs_calibration": 0,
+      "validation_vs_test": 0,
+      "calibration_vs_test": 0
+    },
+    "partitions": {
+      "train": {
+        "rows": 1037,
+        "unique_manufacturers": 30,
+        "unique_model_families": 148,
+        "unique_signatures": 801
+      },
+      "validation": {
+        "rows": 241,
+        "unique_manufacturers": 23,
+        "unique_model_families": 75,
+        "unique_signatures": 172
+      },
+      "calibration": {
+        "rows": 177,
+        "unique_manufacturers": 18,
+        "unique_model_families": 70,
+        "unique_signatures": 130
+      },
+      "test": {
+        "rows": 270,
+        "unique_manufacturers": 24,
+        "unique_model_families": 87,
+        "unique_signatures": 195
+      }
+    }
+  },
+  "unseen_model_families_seed_7777": {
+    "group_column": "model_family",
+    "overlap_counts": {
+      "train_vs_validation": 0,
+      "train_vs_calibration": 0,
+      "train_vs_test": 0,
+      "validation_vs_calibration": 0,
+      "validation_vs_test": 0,
+      "calibration_vs_test": 0
+    },
+    "partitions": {
+      "train": {
+        "rows": 1112,
+        "unique_manufacturers": 25,
+        "unique_model_families": 103,
+        "unique_signatures": 819
+      },
+      "validation": {
+        "rows": 175,
+        "unique_manufacturers": 13,
+        "unique_model_families": 23,
+        "unique_signatures": 138
+      },
+      "calibration": {
+        "rows": 188,
+        "unique_manufacturers": 13,
+        "unique_model_families": 17,
+        "unique_signatures": 151
+      },
+      "test": {
+        "rows": 250,
+        "unique_manufacturers": 20,
+        "unique_model_families": 26,
+        "unique_signatures": 190
+      }
+    }
+  }
+}

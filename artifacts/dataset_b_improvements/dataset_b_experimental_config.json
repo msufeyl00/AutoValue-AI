@@ -1,0 +1,58 @@
+{
+  "model_identifier": "dataset_b_interaction_features_xgboost_experimental",
+  "source": "data/external/UsedCars_Combined.csv",
+  "license": "CC0 Public Domain",
+  "features": [
+    "manufacturing_year",
+    "kms_driven",
+    "brand",
+    "model_family",
+    "fuel_type",
+    "city",
+    "brand_model_family"
+  ],
+  "categorical_features": [
+    "brand",
+    "model_family",
+    "fuel_type",
+    "city",
+    "brand_model_family"
+  ],
+  "numeric_features": [
+    "manufacturing_year",
+    "kms_driven"
+  ],
+  "interaction_construction": "brand.lower() + '__' + model_family.lower()",
+  "target_transformation": "log1p(price_lakhs) during fitting; expm1 for inference",
+  "price_conversion": "price_lakhs = price / 100000",
+  "training_configuration": {
+    "objective": "reg:squarederror",
+    "n_estimators": 350,
+    "max_depth": 3,
+    "learning_rate": 0.03,
+    "min_child_weight": 5,
+    "subsample": 0.85,
+    "colsample_bytree": 0.9,
+    "reg_alpha": 0.1,
+    "reg_lambda": 10.0,
+    "tree_method": "hist"
+  },
+  "calibration": {
+    "protocol": "known_model_families",
+    "seed": 2026,
+    "calibration_rows": 169,
+    "nominal_coverage": 0.9,
+    "quantile_lakhs": 11.901440,
+    "empirical_test_coverage": 0.960784,
+    "average_interval_width_lakhs": 20.675817,
+    "limitation": "Marginal empirical coverage on grouped exploratory splits; not a guarantee for individual predictions or unseen families."
+  },
+  "supported_input_fields": [
+    "brand",
+    "model_family",
+    "manufacturing_year",
+    "kms_driven",
+    "fuel_type",
+    "city"
+  ]
+}

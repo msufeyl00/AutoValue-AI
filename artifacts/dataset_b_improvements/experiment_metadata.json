@@ -1,0 +1,61 @@
+{
+  "dataset": "Kaggle Used Car Data by Sanjeet Singh Naik",
+  "source": "data\\external\\UsedCars_Combined.csv",
+  "license": "CC0 Public Domain",
+  "dataset_fingerprint_sha256": "e59c070d80bbe2745b99e84e52e006560667221e6942a283d1012dcaefb66816",
+  "rows_used": 1725,
+  "seeds": [
+    42,
+    123,
+    2026,
+    3407,
+    7777
+  ],
+  "candidates": {
+    "current_baseline": {
+      "target": "log",
+      "objective": "reg:squarederror",
+      "features": "base",
+      "params": "baseline"
+    },
+    "raw_price": {
+      "target": "raw",
+      "objective": "reg:squarederror",
+      "features": "base",
+      "params": "baseline"
+    },
+    "log_price_tuned": {
+      "target": "log",
+      "objective": "reg:squarederror",
+      "features": "base",
+      "params": "tuned_log"
+    },
+    "pseudo_huber": {
+      "target": "log",
+      "objective": "reg:pseudohubererror",
+      "features": "base",
+      "params": "baseline"
+    },
+    "interaction_features": {
+      "target": "log",
+      "objective": "reg:squarederror",
+      "features": "interaction",
+      "params": "baseline"
+    },
+    "full_model_name": {
+      "target": "log",
+      "objective": "reg:squarederror",
+      "features": "full_name",
+      "params": "baseline"
+    }
+  },
+  "selected_candidate": "interaction_features",
+  "selection_basis": "validation metrics only; test metrics are exploratory evidence",
+  "package_versions": {
+    "python": "3.12.10",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.9.1",
+    "xgboost": "3.4.1"
+  }
+}
