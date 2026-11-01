@@ -30,10 +30,31 @@
 
 ## Model and artifact policy
 
-The current FastAPI artifacts are historical local backups trained from Dataset A. They are intentionally excluded from GitHub and must not be represented as licence-cleared models. Retrain the ANN, production XGBoost, calibration artifacts, and any V2 model using Dataset B before publishing or deploying a cleared model.
+The legacy FastAPI artifacts are historical local backups trained from Dataset
+A. They remain local-only fallbacks, are intentionally excluded from GitHub,
+and must not be represented as licence-cleared models. They are distinct from
+the committed Dataset B experimental bundle under
+`artifacts/dataset_b_improvements/`, which was trained only from the approved
+Dataset B source and includes its matching preprocessor and calibration
+configuration.
 
-The expanded Dataset B evaluation outputs are retained only when their metadata identifies Dataset B and contains no Dataset A or Dataset C records. Mixed-source reports and Dataset A prediction outputs are removed or regenerated.
+The committed Dataset B evaluation outputs are retained only when their
+metadata identifies Dataset B and contains no Dataset A or Dataset C records.
+Mixed-source reports and Dataset A prediction outputs are excluded. The
+Dataset B model remains experimental and is not a production-readiness claim.
 
 ## Git history
 
-Restricted datasets and derived files were present in earlier commits, including `91f3386` and `872559e`. Removing current files and excluding future commits does not erase those historical blobs. A repository history rewrite and force-push would be required to remove them from Git history; no history rewrite or push was performed.
+
+The repository was initialized with a clean Git history after removing
+the previous local history containing restricted-source files.
+
+The clean initial commit was published to:
+
+https://github.com/msufeyl00/AutoValue-AI
+
+The public main branch contains the reviewed project source code,
+Dataset B experimental model bundle, and approved evaluation reports.
+
+Restricted Dataset A and Dataset C files, derived reports, and
+Dataset A-dependent legacy models are excluded from public Git history.

@@ -93,16 +93,21 @@ The experimental Dataset B model uses:
 - XGBoost histogram training on CPU.
 - A separate calibration partition for nominal 90% split-conformal intervals.
 
-The selected experimental bundle was evaluated on 1,725 usable Dataset B rows.
-On the known-family protocol it reported test MAE **3.966 lakhs**, RMSE
-**7.361 lakhs**, R² **0.712**, and 61.96% of predictions within 30%.
-On the unseen-family protocol it reported test MAE **4.867 lakhs**, RMSE
-**11.760 lakhs**, R² **0.374**, and 49.82% within 30%.
+The selected `interaction_features` bundle was evaluated on 1,725 usable
+Dataset B rows across five grouped seeds. These are exploratory grouped
+five-seed results, not independent deployment validation:
 
-These are grouped exploratory results on the available dataset, not a
-deployment guarantee. The known-family calibration reported approximately
-96.08% empirical test coverage with an average interval width of 20.68 lakhs.
-Unseen-family intervals were substantially wider in the reliability study.
+| Protocol | MAE (lakhs) | RMSE (lakhs) | R² | Within 30% |
+|---|---:|---:|---:|---:|
+| Known model families | 4.560 ± 0.581 | 10.742 ± 2.739 | 0.510 ± 0.145 | 63.75% |
+| Unseen model families | 4.816 ± 0.614 | 10.596 ± 2.605 | 0.489 ± 0.077 | 49.79% |
+
+The corresponding mean empirical conformal coverage was **92.54% ± 3.70%**
+with an average interval width of **19.74 ± 3.37 lakhs** for known families.
+For unseen families, mean coverage was **91.85% ± 5.98%** with an average
+interval width of **24.73 ± 11.13 lakhs**. These are marginal calibration
+results across the exploratory grouped seeds, not guaranteed individual
+coverage or independent deployment validation.
 
 ## Limitations
 
